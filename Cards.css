@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 97vh; */
+    font-family: "Nunito Sans";
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#card {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 350px;
+    width: 280px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.171);
+    /* position: relative; */
+    /* position: absolute; */
+}
+
+#text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    bottom: 30px;
+    left: 20px;
+    color: white;
+}
+#h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
